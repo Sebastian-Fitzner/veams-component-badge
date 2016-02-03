@@ -1,6 +1,6 @@
 {
 	"name": "veams-component-badge",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"ignore": [
 		".bowerrc",
 		".gitignore",
