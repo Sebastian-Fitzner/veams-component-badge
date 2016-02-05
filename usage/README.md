@@ -19,7 +19,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @id: scss-import
+// @INSERT :: START @tag: scss-import 
 @import "components/_c-badge";
 // @INSERT :: END
 ```
