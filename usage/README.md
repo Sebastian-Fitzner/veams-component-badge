@@ -7,7 +7,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: Page
 
 ``` hbs
-{{! @INSERT :: START @id: badge, @tag: component
+{{! @INSERT :: START @id: badge, @tag: component-partial }}
 {{#with badge-bp}}
 	{{#each data}}
 		{{> c-badge this}}
@@ -19,7 +19,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @id: scss-import, @tag: component
+// @INSERT :: START @id: scss-import
 @import "components/_c-badge";
 // @INSERT :: END
 ```
