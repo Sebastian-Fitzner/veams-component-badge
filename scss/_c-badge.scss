@@ -3,6 +3,14 @@ Component: Badge
 =================================================== */
 
 /* ---------------------------------------------------
+Global Variables
+--------------------------------------------------- */
+$badge-color-alert: #fff6bf;
+$badge-color-error: #fbe3e4;
+$badge-color-notice: #e5edf8;
+$badge-color-success: #e6efc2;
+
+/* ---------------------------------------------------
 Helper mixins
 --------------------------------------------------- */
 @mixin badge($color: #999, $font-size: 2.5rem) {
@@ -18,13 +26,6 @@ Helper mixins
 Global Styles
 --------------------------------------------------- */
 [data-css="c-badge"] {
-	/*
-	Local variables
-	----------------------- */
-	$alert-color: #fff6bf;
-	$error-color: #fbe3e4;
-	$notice-color: #e5edf8;
-	$success-color: #e6efc2;
 
 	/*
 	Standard styles
@@ -42,19 +43,19 @@ Global Styles
 	Modifiers
 	----------------------- */
 	.is-alert {
-		@include badge($alert-color);
+		@include badge($badge-color-alert);
 	}
 
 	.is-error {
-		@include badge($error-color);
+		@include badge($badge-color-error);
 	}
 
 	.is-notice {
-		@include badge($notice-color);
+		@include badge($badge-color-notice);
 	}
 
 	.is-success {
-		@include badge($success-color);
+		@include badge($badge-color-success);
 	}
 }
 

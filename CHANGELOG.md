@@ -1,3 +1,10 @@
+### v2.0.0
+- Refactor data structure
+- Add all important notes to readme
+- Exclude Insertpoints into own file
+- Add self-contained option
+- Create module based variables in global context
+
 ### v1.0.2
 - changed id to tag
 
