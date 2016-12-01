@@ -1,3 +1,6 @@
+### v2.0.1
+- Remove unused pages folder
+
 ### v2.0.0
 - Refactor data structure
 - Add all important notes to readme
