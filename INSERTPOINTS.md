@@ -15,11 +15,11 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import
+// @INSERT :: START @tag: scss-import //
 @import "components/_c-badge";
-// @INSERT :: END
+// @INSERT :: END //
 
-// @INSERT :: START @tag: scss-import-self-contained 
+// @INSERT :: START @tag: scss-import-self-contained //
 @import "../templating/partials/components/badge/scss/_c-badge";
-// @INSERT :: END
+// @INSERT :: END //
 ```
