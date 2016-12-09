@@ -9,14 +9,27 @@
 
 A simple badge component with different states (e.g. error, success, notice,...) and flexible content.
 
-----
+----------- 
+
+## Installation 
+
+### Installation with Veams
+
+`veams install vc badge`
+
+### Installation with Bower
+
+`bower install veams-component-badge --save`
+
+----------- 
+
 
 ## Fields
 
-### General
-- settings.badgeContextClass {String} [default] - Just pass a string
-- settings.badgeClasses {String} - Modifier classes
+### Settings
+- settings.badgeContextClass {`String`} [default] - _Just pass a string_
+- settings.badgeClasses {`String`} - _Modifier classes_
 
 ### Content
-- content.badgeType {String} - Define your badge type (i.e. alert, error, notice, success)
-- content.badgeContent {String} - Badge content
+- content.badgeType {`String`} - _Define your badge type (i.e. alert, error, notice, success)_
+- content.badgeContent {`String`} - _Badge content_
