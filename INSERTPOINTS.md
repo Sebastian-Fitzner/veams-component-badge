@@ -19,7 +19,7 @@
 @import "components/_c-badge";
 // @INSERT :: END //
 
-// @INSERT :: START @tag: scss-import-self-contained //
+// @INSERT :: START @tag: scss-self-contained-import //
 @import "../templating/partials/components/badge/scss/_c-badge";
 // @INSERT :: END //
 ```
