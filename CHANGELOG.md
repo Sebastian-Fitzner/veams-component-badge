@@ -1,3 +1,12 @@
+### v2.0.4
+- Update insertpoints
+
+### v2.0.3
+- Update insertpoints
+
+### v2.0.2
+- Add installation instructions
+
 ### v2.0.1
 - Remove unused pages folder
 
