@@ -1,3 +1,6 @@
+### v3.0.0
+- Make it compatible with Veams 5 framework
+
 ### v2.0.4
 - Update insertpoints
 
