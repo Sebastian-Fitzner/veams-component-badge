@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="https://badge.fury.io/bo/veams-component-badge"><img src="https://badge.fury.io/bo/veams-component-badge.svg" alt="Bower version" height="20"></a>
+<a href="https://badge.fury.io/js/veams-component-badge"><img src="https://badge.fury.io/js/veams-component-badge.svg" alt="npm version" height="18"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
 
@@ -16,10 +16,6 @@ A simple badge component with different states (e.g. error, success, notice,...)
 ### Installation with Veams
 
 `veams install vc badge`
-
-### Installation with Bower
-
-`bower install veams-component-badge --save`
 
 ----------- 
 
