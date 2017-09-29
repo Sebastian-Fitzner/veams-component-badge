@@ -4,6 +4,6 @@
 	"contextData": "badge-bp",
 	"layout": "lyt-docs",
 	"scssFiles": [
-		"c-badge.scss"
+		"_c-badge.scss"
 	]
 }
