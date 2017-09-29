@@ -1,0 +1,9 @@
+{
+	"type": "component",
+	"displayName": "c-badge",
+	"contextData": "badge-bp",
+	"layout": "lyt-docs",
+	"scssFiles": [
+		"c-badge.scss"
+	]
+}

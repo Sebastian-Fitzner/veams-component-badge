@@ -8,12 +8,3 @@
     {{> c-badge content=this.content settings=this.settings}}
 {{/with}}
 {{! @INSERT :: END }}
-```
-
-### Include: SCSS
-
-``` scss
-// @INSERT :: START @tag: scss-self-contained-import //
-@import "../components/badge/scss/_c-badge";
-// @INSERT :: END //
-```

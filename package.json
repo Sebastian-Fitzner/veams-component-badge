@@ -1,6 +1,6 @@
 {
 	"name": "veams-component-badge",
-	"version": "4.0.0",
+	"version": "5.0.0",
 	"description": "A simple badge component with different states (e.g. error, success, notice,...) and flexible content.",
 	"repository": {
 		"type": "git",
