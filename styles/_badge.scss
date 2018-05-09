@@ -5,10 +5,10 @@ COMPONENT: BADGE
 /* ---------------------------------------------------
 Global Variables
 --------------------------------------------------- */
-$badge-color-alert: #fff6bf;
-$badge-color-error: #fbe3e4;
-$badge-color-notice: #e5edf8;
-$badge-color-success: #e6efc2;
+$badge-color-alert: #fff6bf !default;
+$badge-color-error: #fbe3e4 !default;
+$badge-color-notice: #e5edf8 !default;
+$badge-color-success: #e6efc2 !default;
 
 /* ---------------------------------------------------
 Helper mixins
@@ -16,17 +16,17 @@ Helper mixins
 @mixin badge($color: #999, $font-size: 2.5rem) {
 	background-color: $color;
 	border-radius: $font-size * 5;
-	color: darken($color, 60%);
+	color: darken($color, 70%);
 	font-size: $font-size;
 	line-height: 1;
 	padding: 1.2rem 2.7rem;
+	display: block;
 }
 
 /* ---------------------------------------------------
 Global Styles
 --------------------------------------------------- */
 [data-css="c-badge"] {
-
 	/*
 	Standard styles
 	----------------------- */

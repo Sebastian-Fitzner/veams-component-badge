@@ -4,7 +4,7 @@
 
 ``` hbs
 {{! @INSERT :: START @id: badge, @tag: component-partial }}
-{{#with badge-bp.variations.default}}
+{{#with badge.variations.default}}
     {{> badge content=this.content settings=this.settings}}
 {{/with}}
 {{! @INSERT :: END }}

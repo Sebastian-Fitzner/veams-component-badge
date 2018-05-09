@@ -1,10 +1,10 @@
 {
-	"name": "veams-component-badge",
-	"version": "5.1.0",
+	"name": "@veams/component-badge",
+	"version": "1.0.0",
 	"description": "A simple badge component with different states (e.g. error, success, notice,...) and flexible content.",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Veams/veams-component-badge.git"
+		"url": "git://github.com/Veams/component-badge.git"
 	},
 	"keywords": [
 		"veams"
@@ -12,7 +12,7 @@
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Veams/veams-component-badge/issues"
+		"url": "https://github.com/Veams/component-badge/issues"
 	},
-	"homepage": "https://github.com/Veams/veams-component-badge#readme"
+	"homepage": "https://github.com/Veams/component-badge#readme"
 }
